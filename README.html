@@ -1,0 +1,170 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\zhuoyan\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.11\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<center>
+     <h1>简历</h1>
+ </center>
+<div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
+    <h5 style="color:white;line-height:32px;letter-spacing: 6px;">个人信息</h5>
+</div>
+<div style="height:10px"></div>
+<div style="display:flex;width:100%;font-size:14px">
+    <ul style="flex:2;margin-left:0">
+        <li><b>姓名：</b>***</li>
+        <li><b>学历：</b>统招本科</li>
+        <li><b>院校：</b>长沙理工大学城南学院</li>
+        <li>
+            <b>手机：</b>
+            <a href="tel:132****5405">132****5405</a>
+        </li>
+        <li>
+            <b>Github：</b>
+            <a href="https://github.com/hibichann">https://github.com/hibichann</a>
+        </li>
+    </ul>
+    <ul style="flex:2;margin-left:0">
+        <li><b>性别：</b>男</li>
+        <li><b>语言能力：</b>大学英语四级</li>
+        <li><b>工作经验：</b>2 年</li>
+        <li><b>邮箱：</b><a href="mailto:coder101011@outlook.com">coder101011@outlook.com</a></li>
+    </ul>
+    <div style="flex:1;margin-left:0">
+        <div style="background-color:gray;width:100px;height:120px;"></div>
+    </div>
+</div>
+<div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
+    <h5 style="color:white;line-height:32px;letter-spacing: 6px;">专业技能</h5>
+</div>
+<div style="height:10px"></div>
+<ul>
+<li>熟练掌握 <strong>HTML、CSS、LESS、SCSS</strong>、以及常用的响应式布局、移动端布局方案</li>
+<li>熟练掌握 <strong>JavaScript、TypeScript</strong></li>
+<li>熟练掌握 <strong>Vue2、Vue3</strong>、VueRouter、Vuex等Vue全家桶，熟悉Vue3新特性</li>
+<li>熟练掌握 <strong>E-charts</strong>图表组件开发，客制化图表样式</li>
+<li>熟练掌握 <strong>ElementUI、ElementPlus</strong> 等<strong>桌面端</strong>UI框架使用</li>
+<li>熟练掌握 <strong>VantUI</strong> 等<strong>移动端</strong>UI框架与Html5开发</li>
+<li>实现过表单引擎（<strong>低代码</strong>）的独立开发与维护</li>
+<li>熟悉 <strong>Webpack，Vite</strong> 等常规打包工具的使用</li>
+</ul>
+<div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
+    <h5 style="color:white;line-height:32px;letter-spacing: 6px;">工作经历</h5>
+</div>
+<div style="height:10px"></div>
+<div style="display:flex;width:100%">
+    <div style="flex:1">2022.6-至今 </div>
+    <div style="flex:1">联启科技有限公司</div>
+    <div style="flex:1">前端开发</div>
+</div>
+<div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
+    <h5 style="color:white;line-height:32px;letter-spacing: 6px;">特色经历</h5>
+</div>
+<div style="height:10px"></div>
+<ul>
+<li>在联通项目中独立实现表单引擎（低代码），贴合需求最小化开发</li>
+<li>个人博客项目：<a href="https://github.com/hibichann/Vblog-frontend">https://github.com/hibichann/Vblog-frontend</a> 采用Vue Mysql ElementUI Highlight.js Express等工具开发</li>
+<li>参与开发10k+ Star Github项目 <a href="https://github.com/immersive-translate/immersive-translate">沉浸式翻译</a> （目前已被收购）</li>
+</ul>
+<div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
+    <h5 style="color:white;line-height:32px;letter-spacing: 6px;">项目经历</h5>
+</div>
+<div style="height:10px"></div>
+<h4 id="202305至今-中国联通流量策略分发系统">2023.05——至今 中国联通流量策略分发系统 </h4>
+<p><strong>关键词：Vue2，Element UI，Echarts，表单引擎（低代码）</strong><br>
+<strong>项目情况：</strong> 主要负责为中国联通手机APP提供各类数据及样式，配置与审批，以及后台实时监控功能。各省分业务人员可根据实际业务需求配置各类活动，推荐页面或短信分发，并处理其他数据等。<br>
+<strong>任务：</strong></p>
+<ul>
+<li>素材模板表单引擎（低代码）的独立开发与维护。</li>
+<li>百度云BOS上传，各类图表，通用样式等公共组件开发及维护。</li>
+<li>审批，报表，产品，活动等常规业务页面开发与维护。</li>
+<li>版本迭代，需求变更，性能优化等后续工作。</li>
+</ul>
+<p><strong>难点亮点：</strong></p>
+<ul>
+<li><strong>表单引擎（低代码）：</strong> 实现多种复杂类型的表单数据动态配置，新增模板仅需5分钟配置即可。为 <strong>100+</strong> 商品样式，优惠大小图，瀑布流，小黑条等展示位提供支持，相比静态页面极大的增强了<strong>可维护性</strong>，统一了各种复杂表单的数据格式，减少潜在代码量 <strong>90%+</strong></li>
+<li><strong>百度云BOS上传：</strong> 阅读文档，独立完成百度云BOS SDK实例化，与BOS建立通信，文件切片，实现分块上传，上传成功后的回调，接入CDN等功能，为项目提供了<strong>超大文件上传</strong>的能力，减少了后端服务器压力，提高了用户体验</li>
+</ul>
+<h4 id="202310202311-中国联通手机营业厅-老用户专区">2023.10——2023.11 中国联通手机营业厅-老用户专区 </h4>
+<p><strong>关键词：Vue3，Vant4，TypeScript，Vite</strong><br>
+<strong>项目情况：</strong> 这个项目是关于中国联通手机营业厅的老用户专区页面的重构。原有的页面设计和功能已无法承载当前的业务需要，因此决定进行一次全面的重构。重构的目标是使页面更具配置性和自由度。<br>
+<strong>任务：</strong></p>
+<ul>
+<li>单人独立开发app端页面，重构老用户专区为可动态配置的页面，现在，业务人员可以通过后台自由选择要添加到首页的元素类型，并自由调整它们的顺序，实现了首页的完全可控。</li>
+</ul>
+<p><strong>难点亮点：</strong></p>
+<ul>
+<li>
+<p><strong>动态配置：</strong> 与后端配合，约定数据样式与规范，帮助业务人员能够更简单的配置老用户专区内容，实现了首页的完全可控，大大提高了业务的灵活性。</p>
+</li>
+<li>
+<p><strong>埋点数据收集：</strong> 为了更好地理解用户的行为和需求，我在项目中实现了埋点数据收集功能。这包括设计和实现数据收集策略，以及确保数据的准确性和完整性。</p>
+</li>
+</ul>
+<h4 id="20231220242-甘肃联通数据分析大屏">2023.12——2024.2 甘肃联通数据分析大屏 </h4>
+<p><strong>关键词：Vue2，Echarts，地图</strong><br>
+<strong>项目情况：</strong> 这是一个涉及降套/增收/流量/地市，四个一级维度和几十个二级维度的数据可视化项目。它的目的是为甘肃联通提供一个数据分析大屏在运营中心滚动播放，以便他们可以更好地了解用户的行为和需求。<br>
+<strong>任务：</strong></p>
+<ul>
+<li>大屏页面开发，数据对接，Echarts图表组件开发。</li>
+<li>后续变更需求更新，持续维护。</li>
+</ul>
+<p><strong>难点亮点：</strong></p>
+<ul>
+<li><strong>持续跟进需求变更：</strong> 由于项目的特殊性，需求变更频繁，我需要不断地与业务人员沟通，以确保我能够及时地了解他们的需求，并将其转化为具体的页面和逻辑。</li>
+</ul>
+<h4 id="20227-20235-医疗不良安全事件系统">2022.7-2023.5 医疗不良（安全）事件系统 </h4>
+<p><strong>关键词：Vue3，TypeScript，Echarts</strong><br>
+<strong>项目情况：</strong> 这个项目是一个全面的管理系统，它允许用户通过前端页面配置各种数据。它提供了详细的权限管理功能，可以根据用户的类型提供相应的页面和逻辑。系统中的事件可以通过上报、处理和质量控制评价来完成，每个步骤都包含退回和等待状态。此外，该系统还可以接入非计划不良事件的数据，并确认是否存在隐瞒或遗漏的情况。<br>
+<strong>任务：</strong></p>
+<ul>
+<li>独立负责字典管理，统计分析，事件上报的页面与逻辑的构建。</li>
+<li>独立完成与对接病历系统的数据接入页面与逻辑的编写。</li>
+<li>开发基于Echarts的定制化的图表组件和其他通用组件。</li>
+<li>降低部分页面80%内存占用，提高用户体验。</li>
+<li>局部重构，提升了代码可读性易用性。</li>
+</ul>
+<p><strong>难点亮点：</strong></p>
+<ul>
+<li>
+<p><strong>降低内存占用：</strong> 在项目测试阶段，发现某些页签在打开时会导致内存占用急剧增加。经过分析，我发现问题出在某些下拉选择树列表的DOM数量过大。为解决这个问题，我们将其改为懒加载，从而成功地将内存使用率降至正常水平。</p>
+</li>
+<li>
+<p><strong>定制化图表组件开发：</strong> 利用E-charts开发了近20套通用的，定制化的图表组件，提升了系统的可视化效果和用户体验</p>
+</li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
