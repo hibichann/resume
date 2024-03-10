@@ -8,12 +8,12 @@
 <div style="height:10px"></div>
 <div style="display:flex;width:100%;font-size:14px">
     <ul style="flex:2;margin-left:0">
-        <li><b>姓名：</b>郜卓言</li>
+        <li><b>姓名：</b>***</li>
         <li><b>学历：</b>统招本科</li>
         <li><b>院校：</b>长沙理工大学城南学院</li>
         <li>
             <b>手机：</b>
-            <a href="tel:13272485405">13272485405</a>
+            <a href="tel:132****5405">132****5405</a>
         </li>
         <li>
             <b>Github：</b>
