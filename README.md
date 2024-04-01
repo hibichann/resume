@@ -8,12 +8,12 @@
 <div style="height:10px"></div>
 <div style="display:flex;width:100%;font-size:14px">
     <ul style="flex:2;margin-left:0">
-        <li><b>姓名：</b>***</li>
+        <li><b>姓名：</b>***(脱敏)</li>
         <li><b>学历：</b>统招本科</li>
         <li><b>院校：</b>长沙理工大学城南学院</li>
         <li>
             <b>手机：</b>
-            <a href="tel:132****5405">132****5405</a>
+            <a href="tel:132****5405">132****5405(脱敏)</a>
         </li>
         <li>
             <b>Github：</b>
@@ -37,12 +37,11 @@
 
 * 熟练掌握 **HTML、CSS、LESS、SCSS**、以及常用的响应式布局、移动端布局方案
 * 熟练掌握 **JavaScript、TypeScript**
-* 熟练掌握 **Vue2、Vue3**、VueRouter、Vuex等Vue全家桶，熟悉Vue3新特性
+* 熟练掌握 **Vue2、Vue3**、VueRouter、Vuex等Vue技术栈，熟悉Vue3新特性
+* 熟悉 **React、ReactHooks、Redux** 等React技术栈
 * 熟练掌握 **E-charts**图表组件开发，客制化图表样式
-* 熟练掌握 **ElementUI、ElementPlus** 等**桌面端**UI框架使用
+* 熟练掌握 **ElementUI、ElementPlus、Ant Design** 等**桌面端**UI框架使用
 * 熟练掌握 **VantUI** 等**移动端**UI框架与H5开发
-* 实现过表单引擎（**低代码**）的独立开发与维护
-* 熟悉 **Webpack，Vite** 等常规打包工具的使用
 
 <div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
     <h5 style="color:white;line-height:32px;letter-spacing: 6px;">工作经历</h5>
@@ -58,7 +57,6 @@
     <div style="flex:1">MCRP工作室</div>
     <div style="flex:1">前端开发（远程）</div>
 </div>
-
 <div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
     <h5 style="color:white;line-height:32px;letter-spacing: 6px;">特色经历</h5>
 </div>
@@ -73,6 +71,12 @@
 </div>
 <div style="height:10px"></div>
 
+> **项目经历速读**
+> * 中国联通流量策略分发系统
+> * 医疗不良（安全）事件系统
+> * 中国联通手机营业厅-老用户专区（移动端）
+> * 青春影像-校园歌手大赛（移动端）
+> * 甘肃联通数据分析大屏（数据大屏）
 #### 2023.05——至今 中国联通流量策略分发系统
 **关键词：Vue2，Element UI，Echarts，表单引擎**
 **项目情况：** 主要负责为中国联通手机APP提供各类数据及样式，配置与审批，以及后台实时监控功能。各省分业务人员可根据实际业务需求配置各类活动，推荐页面或短信分发，并处理其他数据等。
