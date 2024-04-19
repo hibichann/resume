@@ -35,13 +35,12 @@
 </div>
 <div style="height:10px"></div>
 
-* 熟练掌握 **HTML、CSS、LESS、SCSS**、以及常用的响应式布局、移动端布局方案
-* 熟练掌握 **JavaScript、TypeScript**
-* 熟练掌握 **Vue2、Vue3**、VueRouter、Vuex等Vue技术栈，熟悉Vue3新特性
-* 熟练掌握 **React、ReactHooks、Redux** 等React技术栈
+* 熟练掌握 **HTML、CSS、SCSS、JavaScript、TypeScript**、以及常用的响应式布局、移动端布局方案
+* 熟练掌握 **Vue2、Vue3、VueRouter、Vuex** 等Vue技术栈，熟悉Vue3新特性
+* 熟练掌握 **React、ReactHooks、React-router、Redux** 等React技术栈
 * 熟练掌握 **E-charts**图表组件开发，客制化图表样式
-* 熟练掌握 **ElementUI、ElementPlus、Ant Design** 等**桌面端**UI框架使用
-* 熟练掌握 **VantUI** 等**移动端**UI框架与H5开发
+* 熟练掌握 **VantUI、ElementUI、ElementPlus、Ant Design** 等移动端/桌面端框架使用以及Html5开发
+* 熟练掌握 **Node.js、Express、MySQL** 等后端开发工具
 
 <div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
     <h5 style="color:white;line-height:32px;letter-spacing: 6px;">工作经历</h5>
@@ -53,18 +52,18 @@
     <div style="flex:1">前端开发</div>
 </div>
 <div style="display:flex;width:100%">
-    <div style="flex:1">2021.3-2021.9 </div>
-    <div style="flex:1">MCRP工作室</div>
-    <div style="flex:1">前端开发（远程）</div>
+    <div style="flex:1">2021.3-2022.5 </div>
+    <div style="flex:1">摩登都市工作室</div>
+    <div style="flex:1">前端开发</div>
 </div>
 <div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
     <h5 style="color:white;line-height:32px;letter-spacing: 6px;">特色经历</h5>
 </div>
 <div style="height:10px"></div>
 
-* 在联通项目中独立实现表单引擎，贴合需求最小化开发
+* 参与开发**10k+ Star** Github项目 [沉浸式翻译](https://github.com/immersive-translate/immersive-translate) （目前已被收购）。
+沉浸式翻译是一个双语对照的网页翻译插件。用户可以通过它来同时查看文章的原文和译文，以及相关的词汇和短语。同时还提供了诸如PDF翻译，电子书翻译，在线双语字幕等功能
 * 个人博客项目：[https://github.com/hibichann/Vblog-frontend](https://github.com/hibichann/Vblog-frontend) 采用Vue Mysql ElementUI Highlight.js Express等工具开发
-* 参与开发10k+ Star Github项目 [沉浸式翻译](https://github.com/immersive-translate/immersive-translate) （目前已被收购）
 
 <div style="height:32px;width:100%;padding-left:30px;background-color:#2D3E50">
     <h5 style="color:white;line-height:32px;letter-spacing: 6px;">项目经历</h5>
@@ -72,11 +71,14 @@
 <div style="height:10px"></div>
 
 > **项目经历速读**
-> * 中国联通手机营业厅 流量策略分发系统
-> * 医疗不良（安全）事件系统
-> * 中国联通手机营业厅-老用户专区（移动端）
-> * 青春影像-校园歌手大赛（移动端）
-> * 甘肃联通数据分析大屏（数据大屏）
+> * React:
+    甘肃联通数据分析大屏（数据大屏）
+> * Vue3:
+    医疗不良（安全）事件系统
+    青春影像-校园歌手大赛（移动端）
+    中国联通手机营业厅-老用户专区（移动端）
+> * Vue2:
+    中国联通手机营业厅 流量策略分发系统
 #### 2023.05——至今 中国联通手机营业厅 流量策略分发系统
 **关键词：Vue2，Element UI，Echarts，表单引擎**
 **项目情况：** 主要负责为中国联通手机APP提供各类数据及样式，配置与审批，以及后台实时监控功能。各省分业务人员可根据实际业务需求配置各类活动，推荐页面或短信分发，并处理其他数据等。
@@ -106,8 +108,8 @@
 * **定制化图表组件开发：** 利用E-charts开发了近20套通用的，定制化的图表组件，提升了系统的可视化效果和用户体验
 
 #### 2023.12——2024.2 甘肃联通数据分析大屏
-**关键词：Vue2，Echarts，地图** 
-**项目情况：** 这是一个涉及降套/增收/流量/地市，四个一级维度和几十个二级维度的数据可视化项目。它的目的是为甘肃联通提供一个数据分析大屏在运营中心滚动播放，以便他们可以更好地了解用户的行为和需求。
+**关键词：React，Echarts** 
+**项目情况：** 这是一个涉及降套/增收/流量/地市，四个一级维度和几十个二级维度的数据可视化项目。它的目的是为甘肃联通运营中心提供一个数据分析大屏，以便他们可以更好地了解用户的行为和需求。
 **任务：**
 * 大屏页面开发，数据对接，Echarts图表组件开发。
 * 后续变更需求更新，持续维护。
